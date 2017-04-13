@@ -14,6 +14,6 @@ function getJoke(){
 		paragraph.innerText = response.value.joke;
 	});
 	xhr.send();
-}
+};
 
 getJoke();
